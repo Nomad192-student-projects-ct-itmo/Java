@@ -1,0 +1,3 @@
+javac WordStatSortedLineIndex.java
+java -jar WordStatSortedLineIndexTest.jar
+pause
