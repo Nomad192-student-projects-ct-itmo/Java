@@ -5,16 +5,16 @@ import java.util.Random;
 public class RandomPlayer implements Player {
 
 	private final Random random = new Random();
-	int m = 3;
-	int n = 3;
 
-	public RandomPlayer(final int m, final int n) {
-		this.m = m;
-		this.n = n;
-	}
+	//public RandomPlayer(final int m, final int n) {
+		//this.m = m;
+		//this.n = n;
+	//}
 
 	@Override
 	public Move makeMove(final Position position, final Cell cell) {
+		final int m = position.getM();
+		final int n = position.getN();
 		//int row;
 		//int col;
 		Move move;

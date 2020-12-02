@@ -14,12 +14,12 @@ public class HumanPlayer implements Player {
 		this(new Scanner(System.in));
 	}
 
-	int n;
-	int k;
+	//int n;
+	//int k;
 
-	public HumanPlayer(final int n, final int k) {
-		this(new Scanner(System.in));
-	}
+	//public HumanPlayer(final int n, final int k) {
+		//this(new Scanner(System.in));
+	//}
 
 	@Override
 	public Move makeMove(final Position position, final Cell cell) {

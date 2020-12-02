@@ -26,6 +26,19 @@ public class Board implements Position {
 		empty = m*n;
 	}
 
+
+    @Override
+    public int getM() {
+    	return m;
+    }
+
+
+    @Override
+    public int getN() {
+    	return n;
+    }	
+
+
 	@Override
    	public String toString() {
    		final StringBuilder sb = new StringBuilder(" ");
